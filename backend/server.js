@@ -4,6 +4,7 @@ const dotenv     = require("dotenv");
 const rateLimit  = require("express-rate-limit");
 
 dotenv.config();
+require("./database");
 console.log("Starting Gold & Silver Investment Platform Server...");
 
 const app = express();
